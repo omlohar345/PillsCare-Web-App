@@ -1,6 +1,5 @@
 # PillsCare - Healthcare Management System
 
-## Project Description
 PillsCare is a comprehensive healthcare management system built with Streamlit and SQLite. It provides a user-friendly platform for patients, doctors, and pharmacies to manage health records, communicate, track medications, and handle emergencies. The system includes features like family health tracking, illness history, medicine reminders, real-time chat, an AI-powered health chatbot, and emergency alerts via email.
 
 ## Key Features
@@ -26,9 +25,9 @@ PillsCare is a comprehensive healthcare management system built with Streamlit a
 - **Database**: SQLite-based with tables for users, patients, doctors, pharmacies, family members, illness history, medicine reminders, orders, chat messages, and chatbot conversations.
 
 ## Technologies Used
-- **Frontend**: Streamlit (for web interface).
-- **Backend**: Python (with SQLite for data storage).
-- **Libraries**: Pandas (for data handling), Hashlib (for password hashing), smtplib (for email services).
+- **Frontend**: Streamlit 
+- **Backend**: Python 
+- **Libraries**: Pandas, Hashlib, smtplib.
 - **Database**: SQLite (pillscare.db).
 
 ## Installation Instructions
@@ -76,9 +75,5 @@ PillsCare is a comprehensive healthcare management system built with Streamlit a
 - `chatbot.py`: Health chatbot logic.
 - `email_service.py`: Email handling for alerts and reminders.
 
-## License
-This project is open-source. Please check for any specific license in the repository (e.g., MIT License).
-
-## Disclaimer
 This is a demo healthcare system for educational purposes. It is not intended for real medical use. Consult qualified healthcare professionals for actual medical advice. Always verify emergency contacts and data privacy.
 
